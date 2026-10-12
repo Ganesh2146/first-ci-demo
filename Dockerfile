@@ -1,4 +1,4 @@
-```dockerfile
+
 FROM python:3.11-slim
 
 WORKDIR /app
@@ -15,4 +15,3 @@ RUN python train_model.py
 EXPOSE 5000
 
 CMD ["python", "app.py"]
-```
